@@ -1,0 +1,36 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main()
+{
+    int n,h,aen=0;
+    cin>>n>>h;
+    
+    vector <int> frd(n);
+    
+
+    for (int i = 0; i < n; i++)
+    {
+        /* code */
+        cin>>frd.at(i);
+    }
+    
+    for (int i = 0; i < n; i++)
+    {
+        /* code */
+        if (frd.at(i)>h)
+        {
+            /* code */
+            aen=aen+2;
+
+        }
+        else aen=aen+1;
+        
+    }
+
+    cout<<aen<<endl;
+    
+    
+ 
+    return 0;
+}
